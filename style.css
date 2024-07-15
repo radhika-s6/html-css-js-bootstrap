@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.project-item.active,
+.project-item:hover {
+    background-color: #dc3545;
+    color: #f8f9fa;
+}
+
+.project-item.active h4,
+.project-item:hover h4 {
+    color: #f8f9fa;
+}
+
+.project-item.active p,
+.project-item:hover p {
+    color: #f8f9fa;
+}
+
+.growth-card {
+    border: 1px solid #e6e6e6;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.growth-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.growth-card .icon {
+    font-size: 2rem;
+    color: #dc3545;
+}
+
+.client-feedback {
+    background-color: #f9f9f9;
+}
+
+.client-feedback h1 {
+    font-size: 2.5rem;
+}
+
+.client-feedback .feedback-text {
+    font-size: 1rem;
+    color: #6c757d;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.company-logos {
+    background-color: #dc3545;
+}
+
+.company-logos img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+h1, h5 {
+    font-weight: bold;
+}
+
+.why-choose-us, .our-project, .client-feedback, .company-logos {
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+.why-choose-us h1, .our-project h1, .client-feedback h1 {
+    font-size: 2.5rem;
+}
+
+.why-choose-us .icon-box, .project-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.why-choose-us .icon-box img, .project-content img {
+    width: 50px;
+    height: 50px;
+}
+
+.why-choose-us .icon-box h5, .project-content h5 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.why-choose-us .icon-box p, .project-content p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.service-item {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-item .image-container {
+    position: relative;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+}
+
+.service-item .hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.service-item:hover .hover-content {
+    opacity: 1;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-indicators li {
+    background-color: #dc3545;
+}
+
+.carousel-indicators .active {
+    background-color: #c82333;
+}
+
+
+
+
+
